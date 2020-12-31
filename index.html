@@ -246,13 +246,13 @@
             <span class="section-subtitle">Contact Me</span>
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact__container bd-grid">
-                <form action="contact-form.php" method="POST" class="contact__form">
+                <form action="https://formspree.io/f/mbjppbzb" method="POST" id="my-form" class="contact__form">
                     <div class="contact__inputs">
                         <input type="text" placeholder="Name" class="contact__input" name="name" required>
                         <input type="email" placeholder="Email" class="contact__input" name="email" required>
                     </div>
                     <input type="text" placeholder="Project" class="contact__input" name="project" required>
-                    <textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact__input"  required></textarea>
+                    <textarea name="message" style="resize: vertical;" id="" cols="0" rows="10" placeholder="Message" class="contact__input"  required></textarea>
                      <input type="submit" value="Send Message" class="button contact__button">
                 </form>
                 <div>
@@ -266,6 +266,7 @@
                     </div>
                 </div>
             </div>
+            <div style="margin-left: 20px; color: #CC4B2C;" id="status" class="success"></div>
         </section>
     </main>
     <footer class="footer section">

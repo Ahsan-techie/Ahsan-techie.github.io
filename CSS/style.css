@@ -644,6 +644,29 @@ img{
         grid-template-columns: repeat(3,1fr);
     }
 }
+#status{
+    width: 90%;
+    max-width: 500px;
+
+}
+#status.success{
+    animation: status 4s ease forwards;
+}
+
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    95%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
 
 
 
